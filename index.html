@@ -530,6 +530,7 @@
       cursor: pointer;
       transition: all 0.3s;
       box-shadow: 0 8px 20px rgba(34, 197, 94, 0.3);
+      text-decoration: none;
     }
     
     .download-button-main:hover {
@@ -1048,7 +1049,7 @@
         <p class="fade-in delay-1">Race Through Dynamic City Streets • Master Extreme Tracks • Ultimate Racing Adventure</p>
         
         <div class="hero-buttons fade-in delay-2">
-        <a href="https://lockedapp.org/cl/i/xp6nwg" class="download-button-main pulse"><i class="fas fa-download"></i> Download Now</a>
+         <button onclick="window.open('https://lockedapp.org/cl/i/xp6nwg', '_blank')" class="download-button-main pulse"><i class="fas fa-download"></i> Download Now</button>
           <a href="#details" class="btn btn-outline"><i class="fas fa-info-circle"></i> Game Details</a>
         </div>
         
@@ -1148,7 +1149,7 @@
       </ul>
       
       <!-- Download Button at Bottom -->
-    <a href="https://lockedapp.org/cl/i/xp6nwg" class="download-button-main pulse"><i class="fas fa-download"></i> Download Now</a>
+     <button onclick="window.open('https://lockedapp.org/cl/i/xp6nwg', '_blank')" class="download-button-main pulse"><i class="fas fa-download"></i> Download Now</button>
     </div>
   </section>
   
@@ -1278,7 +1279,7 @@
         
         <form class="cta-form fade-in delay-2">
           <input type="email" class="cta-input" placeholder="Enter your email address">
-           <button onclick="https://lockedapp.org/cl/i/xp6nwg" class="download-button-main pulse"><i class="fas fa-download"></i> Download Now</button>
+           <button onclick="window.open('https://lockedapp.org/cl/i/xp6nwg', '_blank')" class="download-button-main pulse"><i class="fas fa-download"></i> Download Now</button>
         </form>
       </div>
     </div>
@@ -1392,14 +1393,10 @@
         btn.addEventListener('click', function() {
           this.innerHTML = '<i class="fas fa-download"></i> Download Now';
           this.classList.remove('pulse');
-          // Add download link here
-          // window.location.href = 'download-link';
         });
       });
     });  
   </script>
 </body>
-
 </html>
-
 
